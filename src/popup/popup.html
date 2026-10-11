@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keyra</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="brand">
+        <span class="brand-mark" id="brand-mark"></span>
+        <span class="brand-name">Keyra</span>
+        <span class="status" id="status"></span>
+        <span class="test-badge" id="test-badge" hidden></span>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" id="btn-open" type="button"></button>
+        <button class="icon-btn" id="btn-settings" type="button"></button>
+      </div>
+    </header>
+    <nav class="tabs" id="tabs"></nav>
+    <main class="view" id="view"></main>
+    <div class="toast" id="toast" role="status"></div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

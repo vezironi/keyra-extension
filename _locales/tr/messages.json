@@ -1,0 +1,437 @@
+{
+  "extName": {
+    "message": "Keyra"
+  },
+  "extDescription": {
+    "message": "Keyra parola kasası için otomatik doldurma, parola kaydetme ve parola üretici."
+  },
+  "cmdAutofill": {
+    "message": "Bu sitedeki girişi doldur"
+  },
+  "cmdGenerate": {
+    "message": "Parola oluştur ve doldur"
+  },
+  "cmdOpen": {
+    "message": "Keyra'yı aç"
+  },
+  "ctxAutofill": {
+    "message": "Keyra ile giriş doldur"
+  },
+  "ctxGenerate": {
+    "message": "Keyra ile güçlü parola oluştur"
+  },
+  "err_locked": {
+    "message": "Keyra kilitli. Önce uygulamada kilidi aç."
+  },
+  "err_offline": {
+    "message": "Keyra'ya ulaşılamıyor."
+  },
+  "err_not_paired": {
+    "message": "Eklenti Keyra'ya bağlı değil."
+  },
+  "err_unauthorized": {
+    "message": "Bu tarayıcının bağlantısı kaldırılmış."
+  },
+  "err_forbidden": {
+    "message": "Bu sayfa için izin verilmedi."
+  },
+  "err_not_found": {
+    "message": "Kayıt bulunamadı."
+  },
+  "err_bad_request": {
+    "message": "Geçersiz istek."
+  },
+  "err_pair_denied": {
+    "message": "Bağlantı Keyra'da reddedildi."
+  },
+  "err_pair_busy": {
+    "message": "Keyra'da zaten bekleyen bir bağlantı isteği var."
+  },
+  "err_app_busy": {
+    "message": "Keyra yanıt vermedi. Tekrar dene."
+  },
+  "err_unknown": {
+    "message": "Bir hata oluştu."
+  },
+  "noLoginsForSite": {
+    "message": "Bu site için kayıtlı giriş yok."
+  },
+  "nothingToFill": {
+    "message": "Bu sayfada doldurulacak alan bulunamadı."
+  },
+  "noPasswordField": {
+    "message": "Bu sayfada parola alanı bulunamadı."
+  },
+  "generatedFilled": {
+    "message": "Güçlü parola dolduruldu ve kopyalandı."
+  },
+  "generatedFilledNoCopy": {
+    "message": "Güçlü parola dolduruldu."
+  },
+  "generatedCopied": {
+    "message": "Güçlü parola panoya kopyalandı."
+  },
+  "totpCopied": {
+    "message": "Doğrulama kodu kopyalandı."
+  },
+  "menuGenerate": {
+    "message": "Güçlü parola oluştur"
+  },
+  "menuGenerateSub": {
+    "message": "Doldurur ve panoya kopyalar"
+  },
+  "menuNoLogins": {
+    "message": "Bu site için giriş yok"
+  },
+  "menuNoLoginsSub": {
+    "message": "Giriş yaptığında Keyra kaydetmeyi önerir"
+  },
+  "menuLocked": {
+    "message": "Keyra kilitli"
+  },
+  "menuLockedSub": {
+    "message": "Kilidi açmak için tıkla"
+  },
+  "menuOffline": {
+    "message": "Keyra'ya ulaşılamıyor"
+  },
+  "menuOfflineSub": {
+    "message": "Keyra açık ve tarayıcı eklentisine izin verilmiş olmalı"
+  },
+  "menuUnpaired": {
+    "message": "Keyra'ya bağlı değil"
+  },
+  "menuUnpairedSub": {
+    "message": "Bağlanmak için eklenti simgesine tıkla"
+  },
+  "noUsername": {
+    "message": "(kullanıcı adı yok)"
+  },
+  "barSaveTitle": {
+    "message": "Bu giriş Keyra'ya kaydedilsin mi?"
+  },
+  "barUpdateTitle": {
+    "message": "Keyra'daki parola güncellensin mi?"
+  },
+  "barLocked": {
+    "message": "Keyra kilitli. Kaydetmek için önce Keyra'nın kilidini aç."
+  },
+  "barSave": {
+    "message": "Kaydet"
+  },
+  "barUpdate": {
+    "message": "Güncelle"
+  },
+  "barNotNow": {
+    "message": "Şimdi değil"
+  },
+  "barNever": {
+    "message": "Bu sitede asla"
+  },
+  "barSaved": {
+    "message": "Keyra'ya kaydedildi"
+  },
+  "barUpdated": {
+    "message": "Parola güncellendi"
+  },
+  "barExists": {
+    "message": "Bu giriş zaten kayıtlı"
+  },
+  "openKeyra": {
+    "message": "Keyra'yı aç"
+  },
+  "stateUnlocked": {
+    "message": "Açık"
+  },
+  "stateLocked": {
+    "message": "Kilitli"
+  },
+  "stateOffline": {
+    "message": "Bağlantı yok"
+  },
+  "stateUnpaired": {
+    "message": "Bağlı değil"
+  },
+  "tabSite": {
+    "message": "Bu site"
+  },
+  "tabVault": {
+    "message": "Kasa"
+  },
+  "tabGenerator": {
+    "message": "Oluşturucu"
+  },
+  "pairTitle": {
+    "message": "Keyra'ya bağlan"
+  },
+  "pairBody": {
+    "message": "Eklenti, bilgisayarındaki Keyra uygulamasıyla çalışır. Kasan hiçbir zaman buluta gönderilmez."
+  },
+  "pairStep1": {
+    "message": "Keyra'yı aç ve kilidini aç."
+  },
+  "pairStep2": {
+    "message": "Ayarlar → Tarayıcı'dan eklentiye izin ver."
+  },
+  "pairStep3": {
+    "message": "Aşağıdaki butona bas ve Keyra'da kodu onayla."
+  },
+  "pairButton": {
+    "message": "Keyra'ya bağlan"
+  },
+  "pairWaitTitle": {
+    "message": "Keyra'da onayla"
+  },
+  "pairWaitBody": {
+    "message": "Keyra'da açılan penceredeki kodun bununla aynı olduğunu kontrol et ve \"Bağla\"ya bas."
+  },
+  "pairWaiting": {
+    "message": "Onay bekleniyor…"
+  },
+  "pairDone": {
+    "message": "Keyra'ya bağlandı"
+  },
+  "lockedTitle": {
+    "message": "Keyra kilitli"
+  },
+  "lockedBody": {
+    "message": "Girişlerini görmek için Keyra'nın kilidini aç. Bu pencere kendiliğinden yenilenir."
+  },
+  "offlineTitle": {
+    "message": "Keyra'ya ulaşılamıyor"
+  },
+  "offlineBody": {
+    "message": "Eklenti, bilgisayarında çalışan Keyra uygulamasına bağlanamadı."
+  },
+  "offlineStep1": {
+    "message": "Keyra açık mı? Sistem tepsisinde çalışıyor olabilir."
+  },
+  "offlineStep2": {
+    "message": "Keyra'da Ayarlar → Tarayıcı'dan eklentiye izin verildi mi?"
+  },
+  "retry": {
+    "message": "Tekrar dene"
+  },
+  "notWebTitle": {
+    "message": "Bu sayfada doldurma yok"
+  },
+  "notWebBody": {
+    "message": "Keyra yalnızca web sitelerinde çalışır. Kasa ve Oluşturucu sekmelerini kullanabilirsin."
+  },
+  "loginsCount": {
+    "message": "$1 kayıtlı giriş"
+  },
+  "noLoginsTitle": {
+    "message": "Bu site için giriş yok"
+  },
+  "noLoginsBody": {
+    "message": "Bu sitede giriş yaptığında Keyra kaydetmeyi önerir."
+  },
+  "sectionLogins": {
+    "message": "Girişler"
+  },
+  "fillHint": {
+    "message": "Sayfaya doldurmak için tıkla"
+  },
+  "copyUsername": {
+    "message": "Kullanıcı adını kopyala"
+  },
+  "copyPassword": {
+    "message": "Parolayı kopyala"
+  },
+  "copyTotp": {
+    "message": "Doğrulama kodunu kopyala"
+  },
+  "copyNumber": {
+    "message": "Kart numarasını kopyala"
+  },
+  "copyEmail": {
+    "message": "E-postayı kopyala"
+  },
+  "openInKeyra": {
+    "message": "Keyra'da aç"
+  },
+  "copied": {
+    "message": "$1 kopyalandı"
+  },
+  "username": {
+    "message": "Kullanıcı adı"
+  },
+  "password": {
+    "message": "Parola"
+  },
+  "totp": {
+    "message": "Doğrulama kodu"
+  },
+  "cardNumber": {
+    "message": "Kart numarası"
+  },
+  "email": {
+    "message": "E-posta"
+  },
+  "card": {
+    "message": "Kart"
+  },
+  "fill": {
+    "message": "Doldur"
+  },
+  "copy": {
+    "message": "Kopyala"
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "searchPlaceholder": {
+    "message": "Kasada ara"
+  },
+  "noResults": {
+    "message": "Sonuç yok"
+  },
+  "kindLogins": {
+    "message": "Girişler"
+  },
+  "kindCards": {
+    "message": "Kartlar"
+  },
+  "kindIdentities": {
+    "message": "Kimlikler"
+  },
+  "strength0": {
+    "message": "Çok zayıf"
+  },
+  "strength1": {
+    "message": "Zayıf"
+  },
+  "strength2": {
+    "message": "Orta"
+  },
+  "strength3": {
+    "message": "Güçlü"
+  },
+  "strength4": {
+    "message": "Çok güçlü"
+  },
+  "bits": {
+    "message": "$1 bit"
+  },
+  "genType": {
+    "message": "Tür"
+  },
+  "genPassword": {
+    "message": "Parola"
+  },
+  "genPin": {
+    "message": "PIN"
+  },
+  "genLength": {
+    "message": "Uzunluk"
+  },
+  "genAvoid": {
+    "message": "Karışan karakterleri çıkar"
+  },
+  "genAvoidDesc": {
+    "message": "O 0 I l 1 | gibi"
+  },
+  "genRegenerate": {
+    "message": "Yenile"
+  },
+  "genHistory": {
+    "message": "Bu oturumda üretilenler"
+  },
+  "genHistoryClear": {
+    "message": "Geçmişi temizle"
+  },
+  "settingsTitle": {
+    "message": "Ayarlar"
+  },
+  "sectionConnection": {
+    "message": "Bağlantı"
+  },
+  "sectionAutofill": {
+    "message": "Otomatik doldurma"
+  },
+  "sectionNever": {
+    "message": "Kaydetme önerilmeyen siteler"
+  },
+  "sectionShortcuts": {
+    "message": "Klavye kısayolları"
+  },
+  "pairedSince": {
+    "message": "$1 tarihinden beri bağlı"
+  },
+  "unpair": {
+    "message": "Bağlantıyı kes"
+  },
+  "unpaired": {
+    "message": "Bağlantı kesildi"
+  },
+  "optInline": {
+    "message": "Alan içi menü"
+  },
+  "optInlineDesc": {
+    "message": "Giriş alanlarında Keyra simgesini ve önerileri göster"
+  },
+  "optSave": {
+    "message": "Girişleri kaydetmeyi öner"
+  },
+  "optSaveDesc": {
+    "message": "Giriş yaptığında yeni veya değişen parolaları kaydet"
+  },
+  "optTotp": {
+    "message": "Doğrulama kodunu kopyala"
+  },
+  "optTotpDesc": {
+    "message": "Doldurduktan sonra TOTP kodunu panoya kopyala"
+  },
+  "neverEmpty": {
+    "message": "Liste boş."
+  },
+  "shortcutNotSet": {
+    "message": "Atanmadı"
+  },
+  "shortcutEdit": {
+    "message": "Kısayolları değiştir"
+  },
+  "testBadge": {
+    "message": "Test"
+  },
+  "pairTestButton": {
+    "message": "Test modunda bağlan"
+  },
+  "pairTestBody": {
+    "message": "Keyra'da \"Test hesabıyla dene\" ile açılan örnek kasaya onay istemeden bağlanır. Gerçek bir kasada normal onay penceresi çıkar."
+  },
+  "sectionTest": {
+    "message": "Bağlantı testi"
+  },
+  "testRun": {
+    "message": "Bağlantıyı test et"
+  },
+  "testPaired": {
+    "message": "Eşleştirme"
+  },
+  "testReachable": {
+    "message": "Keyra'ya erişim"
+  },
+  "testVault": {
+    "message": "Kasa (giriş / kart / kimlik)"
+  },
+  "testSite": {
+    "message": "Bu sitenin girişleri"
+  },
+  "testTotp": {
+    "message": "Doğrulama kodu"
+  },
+  "testGenerator": {
+    "message": "Parola üretici"
+  },
+  "testAllPassed": {
+    "message": "Tüm adımlar başarılı. Eklenti Keyra ile çalışıyor."
+  },
+  "testSomeFailed": {
+    "message": "Bazı adımlar başarısız. Kırmızı satırlardaki nedene bak."
+  }
+}

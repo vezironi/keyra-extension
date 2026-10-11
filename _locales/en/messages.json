@@ -1,0 +1,437 @@
+{
+  "extName": {
+    "message": "Keyra"
+  },
+  "extDescription": {
+    "message": "Autofill, login saving and a password generator for the Keyra password vault."
+  },
+  "cmdAutofill": {
+    "message": "Fill the login for this site"
+  },
+  "cmdGenerate": {
+    "message": "Generate and fill a password"
+  },
+  "cmdOpen": {
+    "message": "Open Keyra"
+  },
+  "ctxAutofill": {
+    "message": "Fill login with Keyra"
+  },
+  "ctxGenerate": {
+    "message": "Generate a strong password with Keyra"
+  },
+  "err_locked": {
+    "message": "Keyra is locked. Unlock it in the app first."
+  },
+  "err_offline": {
+    "message": "Can't reach Keyra."
+  },
+  "err_not_paired": {
+    "message": "The extension isn't connected to Keyra."
+  },
+  "err_unauthorized": {
+    "message": "This browser's connection was removed."
+  },
+  "err_forbidden": {
+    "message": "Not allowed on this page."
+  },
+  "err_not_found": {
+    "message": "Item not found."
+  },
+  "err_bad_request": {
+    "message": "Invalid request."
+  },
+  "err_pair_denied": {
+    "message": "The connection was denied in Keyra."
+  },
+  "err_pair_busy": {
+    "message": "Another connection request is already waiting in Keyra."
+  },
+  "err_app_busy": {
+    "message": "Keyra didn't respond. Try again."
+  },
+  "err_unknown": {
+    "message": "Something went wrong."
+  },
+  "noLoginsForSite": {
+    "message": "No saved logins for this site."
+  },
+  "nothingToFill": {
+    "message": "No fields to fill on this page."
+  },
+  "noPasswordField": {
+    "message": "No password field on this page."
+  },
+  "generatedFilled": {
+    "message": "Strong password filled and copied."
+  },
+  "generatedFilledNoCopy": {
+    "message": "Strong password filled."
+  },
+  "generatedCopied": {
+    "message": "Strong password copied."
+  },
+  "totpCopied": {
+    "message": "Verification code copied."
+  },
+  "menuGenerate": {
+    "message": "Generate a strong password"
+  },
+  "menuGenerateSub": {
+    "message": "Fills it in and copies it"
+  },
+  "menuNoLogins": {
+    "message": "No logins for this site"
+  },
+  "menuNoLoginsSub": {
+    "message": "Keyra offers to save it when you sign in"
+  },
+  "menuLocked": {
+    "message": "Keyra is locked"
+  },
+  "menuLockedSub": {
+    "message": "Click to unlock"
+  },
+  "menuOffline": {
+    "message": "Can't reach Keyra"
+  },
+  "menuOfflineSub": {
+    "message": "Keyra must be running with the browser extension allowed"
+  },
+  "menuUnpaired": {
+    "message": "Not connected to Keyra"
+  },
+  "menuUnpairedSub": {
+    "message": "Click the extension icon to connect"
+  },
+  "noUsername": {
+    "message": "(no username)"
+  },
+  "barSaveTitle": {
+    "message": "Save this login to Keyra?"
+  },
+  "barUpdateTitle": {
+    "message": "Update the password in Keyra?"
+  },
+  "barLocked": {
+    "message": "Keyra is locked. Unlock Keyra to save."
+  },
+  "barSave": {
+    "message": "Save"
+  },
+  "barUpdate": {
+    "message": "Update"
+  },
+  "barNotNow": {
+    "message": "Not now"
+  },
+  "barNever": {
+    "message": "Never for this site"
+  },
+  "barSaved": {
+    "message": "Saved to Keyra"
+  },
+  "barUpdated": {
+    "message": "Password updated"
+  },
+  "barExists": {
+    "message": "This login is already saved"
+  },
+  "openKeyra": {
+    "message": "Open Keyra"
+  },
+  "stateUnlocked": {
+    "message": "Unlocked"
+  },
+  "stateLocked": {
+    "message": "Locked"
+  },
+  "stateOffline": {
+    "message": "Offline"
+  },
+  "stateUnpaired": {
+    "message": "Not connected"
+  },
+  "tabSite": {
+    "message": "This site"
+  },
+  "tabVault": {
+    "message": "Vault"
+  },
+  "tabGenerator": {
+    "message": "Generator"
+  },
+  "pairTitle": {
+    "message": "Connect to Keyra"
+  },
+  "pairBody": {
+    "message": "The extension works with the Keyra app on this computer. Your vault never goes to the cloud."
+  },
+  "pairStep1": {
+    "message": "Open Keyra and unlock it."
+  },
+  "pairStep2": {
+    "message": "Allow the extension in Settings → Browser."
+  },
+  "pairStep3": {
+    "message": "Press the button below and approve the code in Keyra."
+  },
+  "pairButton": {
+    "message": "Connect to Keyra"
+  },
+  "pairWaitTitle": {
+    "message": "Approve in Keyra"
+  },
+  "pairWaitBody": {
+    "message": "Check that the code in Keyra matches this one and press \"Connect\"."
+  },
+  "pairWaiting": {
+    "message": "Waiting for approval…"
+  },
+  "pairDone": {
+    "message": "Connected to Keyra"
+  },
+  "lockedTitle": {
+    "message": "Keyra is locked"
+  },
+  "lockedBody": {
+    "message": "Unlock Keyra to see your logins. This window refreshes by itself."
+  },
+  "offlineTitle": {
+    "message": "Can't reach Keyra"
+  },
+  "offlineBody": {
+    "message": "The extension couldn't connect to the Keyra app on this computer."
+  },
+  "offlineStep1": {
+    "message": "Is Keyra running? It may be in the system tray."
+  },
+  "offlineStep2": {
+    "message": "Is the extension allowed in Keyra's Settings → Browser?"
+  },
+  "retry": {
+    "message": "Try again"
+  },
+  "notWebTitle": {
+    "message": "Nothing to fill here"
+  },
+  "notWebBody": {
+    "message": "Keyra only fills on websites. You can still use the Vault and Generator tabs."
+  },
+  "loginsCount": {
+    "message": "Saved logins: $1"
+  },
+  "noLoginsTitle": {
+    "message": "No logins for this site"
+  },
+  "noLoginsBody": {
+    "message": "When you sign in here, Keyra offers to save the login."
+  },
+  "sectionLogins": {
+    "message": "Logins"
+  },
+  "fillHint": {
+    "message": "Click to fill on the page"
+  },
+  "copyUsername": {
+    "message": "Copy username"
+  },
+  "copyPassword": {
+    "message": "Copy password"
+  },
+  "copyTotp": {
+    "message": "Copy verification code"
+  },
+  "copyNumber": {
+    "message": "Copy card number"
+  },
+  "copyEmail": {
+    "message": "Copy email"
+  },
+  "openInKeyra": {
+    "message": "Open in Keyra"
+  },
+  "copied": {
+    "message": "$1 copied"
+  },
+  "username": {
+    "message": "Username"
+  },
+  "password": {
+    "message": "Password"
+  },
+  "totp": {
+    "message": "Verification code"
+  },
+  "cardNumber": {
+    "message": "Card number"
+  },
+  "email": {
+    "message": "Email"
+  },
+  "card": {
+    "message": "Card"
+  },
+  "fill": {
+    "message": "Fill"
+  },
+  "copy": {
+    "message": "Copy"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "searchPlaceholder": {
+    "message": "Search the vault"
+  },
+  "noResults": {
+    "message": "No results"
+  },
+  "kindLogins": {
+    "message": "Logins"
+  },
+  "kindCards": {
+    "message": "Cards"
+  },
+  "kindIdentities": {
+    "message": "Identities"
+  },
+  "strength0": {
+    "message": "Very weak"
+  },
+  "strength1": {
+    "message": "Weak"
+  },
+  "strength2": {
+    "message": "Fair"
+  },
+  "strength3": {
+    "message": "Strong"
+  },
+  "strength4": {
+    "message": "Very strong"
+  },
+  "bits": {
+    "message": "$1 bits"
+  },
+  "genType": {
+    "message": "Type"
+  },
+  "genPassword": {
+    "message": "Password"
+  },
+  "genPin": {
+    "message": "PIN"
+  },
+  "genLength": {
+    "message": "Length"
+  },
+  "genAvoid": {
+    "message": "Avoid ambiguous characters"
+  },
+  "genAvoidDesc": {
+    "message": "Such as O 0 I l 1 |"
+  },
+  "genRegenerate": {
+    "message": "New"
+  },
+  "genHistory": {
+    "message": "Generated this session"
+  },
+  "genHistoryClear": {
+    "message": "Clear history"
+  },
+  "settingsTitle": {
+    "message": "Settings"
+  },
+  "sectionConnection": {
+    "message": "Connection"
+  },
+  "sectionAutofill": {
+    "message": "Autofill"
+  },
+  "sectionNever": {
+    "message": "Never offer to save on"
+  },
+  "sectionShortcuts": {
+    "message": "Keyboard shortcuts"
+  },
+  "pairedSince": {
+    "message": "Connected since $1"
+  },
+  "unpair": {
+    "message": "Disconnect"
+  },
+  "unpaired": {
+    "message": "Disconnected"
+  },
+  "optInline": {
+    "message": "In-field menu"
+  },
+  "optInlineDesc": {
+    "message": "Show the Keyra icon and suggestions in login fields"
+  },
+  "optSave": {
+    "message": "Offer to save logins"
+  },
+  "optSaveDesc": {
+    "message": "Save new or changed passwords when you sign in"
+  },
+  "optTotp": {
+    "message": "Copy verification code"
+  },
+  "optTotpDesc": {
+    "message": "Copy the TOTP code after filling a login"
+  },
+  "neverEmpty": {
+    "message": "The list is empty."
+  },
+  "shortcutNotSet": {
+    "message": "Not set"
+  },
+  "shortcutEdit": {
+    "message": "Change shortcuts"
+  },
+  "testBadge": {
+    "message": "Test"
+  },
+  "pairTestButton": {
+    "message": "Connect in test mode"
+  },
+  "pairTestBody": {
+    "message": "Connects without approval to the sample vault opened with \"Try with a test account\" in Keyra. A real vault still shows the normal approval prompt."
+  },
+  "sectionTest": {
+    "message": "Connection test"
+  },
+  "testRun": {
+    "message": "Test the connection"
+  },
+  "testPaired": {
+    "message": "Pairing"
+  },
+  "testReachable": {
+    "message": "Reaching Keyra"
+  },
+  "testVault": {
+    "message": "Vault (logins / cards / identities)"
+  },
+  "testSite": {
+    "message": "Logins for this site"
+  },
+  "testTotp": {
+    "message": "Verification code"
+  },
+  "testGenerator": {
+    "message": "Password generator"
+  },
+  "testAllPassed": {
+    "message": "All steps passed. The extension is working with Keyra."
+  },
+  "testSomeFailed": {
+    "message": "Some steps failed. See the reason on the red rows."
+  }
+}
